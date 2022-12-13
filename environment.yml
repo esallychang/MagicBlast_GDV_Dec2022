@@ -2,13 +2,13 @@ name: magicblast-gdv-dec2022
 channels:
   - conda-forge
   - bioconda
-  -defaults
+  - defaults
 dependencies:
   - python
   - numpy
   - pip
-  -entrez-direct
-  -magicblast
+  - entrez-direct
+  - magicblast
   - pip:
     - nbgitpuller
     - bash_kernel
